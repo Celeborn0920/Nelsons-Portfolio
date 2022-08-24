@@ -25,7 +25,7 @@ img {
 }
 
 .First-Project {
-    height: auto;
+    height: 100px;
     width: 500px;
     color: black;
 }
@@ -45,11 +45,11 @@ a {
     text-decoration: none;
 }
 
-img:hover,
-img:focus {
+/* img:hover,
+/* img:focus {
     width: 325px;
     height: 325px;
-}
+} */ */
 
 header {
     border: 3px solid black;
