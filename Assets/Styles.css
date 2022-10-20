@@ -68,6 +68,17 @@ header {
 
 .p2-text {
     position: relative;
+    bottom: 1px;
+    color: black;
+}
+
+#NewsHound {
+    height: 200px;
+    width: 500px;
+}
+
+#p1-text {
+    position: relative;
     bottom: 20px;
     color: black;
 }
