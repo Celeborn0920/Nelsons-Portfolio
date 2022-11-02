@@ -5,45 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nelson's Portfiolo</title>
-    <link rel="stylesheet" href="Assets/Styles.css">
+    <title>Nelson's Portfolio</title>
+    <link rel="stylesheet" href="./Assets/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Welcome to Nelson Drozd's Portfiolo</h1>
-        <nav class="links">
-            <p>
-                <a href="#about-me">About Me |</a> <a href=#Image-1> Sportcast |</a> <a href="#NewsHound"> NewsHound |</a>
-                <a href="#Image-3"> Project 3 |</a> <a href="#contact">Contact Me </a>
-            </p>
+        <nav class="navbar">
+            <p class="myInfo">
+            <h2>Nelson Drozd</h2> <a href="https://github.com/NelsonD93">
+                <h3 id="githubProfile">My Github Profile</h3>
+            </a></p>
         </nav>
     </header>
-    <article>
-        <h1 a id="About-Me"> About Me </h1> <br>
-        <div class="container">
-            <img class="My-Picture" src="./Assets/Images/Portfolio-Pic.jpeg">
-            Hi there! <br> My name is Nelson Drozd and thank you for visiting my portfolio. I am located in Stamford,
-            Connecticut. After working in a number of fields including customer service, finance, and SaaS
-            (Software-as-a-Service), I have taken the leap into web development. This was at least partially inspired by
-            2 different layoffs in a 9-month period, in addition to the fact that tech has always been my passion, since
-            my first computer-hardware upgrade at 12 years old. Below, you will find projects that I have developed with fellow students. Please feel
-            free to contact me at my contact info which can be found on the bottom of this page.
-    </article>
-    <section class="images">
-        <h1>My Projects</h1>
-        <a href="https://christiansmith46.github.io/Sportcast/"><img class="First-Project" id="Image-1" src="./Assets/Images/Sportcast.png" alt="Image of Sportcast title"></a>
-        <div id='p1-text'class="p2-text"> Sportcast - Checking weather and schedules for NFL teams</div>
-        <a href='https://github.com/alextheordinary/news-hound'><img class="Portfolio" id="NewsHound" src="./Assets/Images/NewsHound.png" alt="Clickbable image for application"></a>
-        <div class="p2-text"> NewsHound - Manage your own newsfeed</div>
-        <img class="Portfolio" id="Image-3" src="./Assets/Images/placeholder-3.png" alt="Placeholder Image 3">
-        <div class="p3-text">Placeholder for Project 3</div>
-    </section>
+    <span class="leftSide">
+        <img id="myPicture" src="./Assets/Images/Portfolio-Pic.jpeg" alt="Picture of Nelson">
+    </span>
+    <div id="bio">
+        <p>A junior developer set to graduate from a full-stack <br> bootcamp in December 2022. Want to see more? View my github profile <a href="https://github.com/NelsonD93">here</a>!</p>
     </div>
+    <div class="mainContent">
+        <h1 class="whiteText"> Recent collaborative projects</h1>
+        <p>
+        <h2>NewsHound - Create your own newsfeed without the comments<a href="https://github.com/alextheordinary/news-hound"><img class="github"
+                src="./Assets/Images/Github.png"></a></h2> <img id='newshound' src="./Assets/Images/NewsHound.png"></p>
+        <br>
+        <p>
+        <h2>Sportcast - Combining weather forecasts with sports scheduling<a href="https://github.com/ChristianSmith46/Sportcast"><img class="github"
+                    src="./Assets/Images/Github.png"></a></h2> <img id="sportcast" src="./Assets/Images/Sportcast.png">
+        </p>
 
+    </div>
     <footer>
-        <h4 a id="contact"> Contact Me </h4>
-        P: 860.620.3281 E: nelsondrozd@gmail.com
+        <h2 a class="whiteText"> Contact Me </h2>
+        <h3>P: 860.620.3281 E: nelsondrozd@gmail.com<br> <a href="mailto:nelsondrozd@gmail.com?subject=Following up on your portfolio">Send me an email</a></h3>
     </footer>
 </body>
 

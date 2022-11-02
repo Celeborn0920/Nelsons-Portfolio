@@ -1,84 +1,61 @@
-h1 {
-    text-align: center;
-    font-size: large;
-}
-
 body {
-    text-align: center;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 101, 121, 1) 32%);
+}
+
+header {
+    height: 50px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+#githubProfile {
+    color: white;
 }
 
-.My-Picture {
-    border-radius: 8px;
-    width: 300px;
+#bio {
+    color: white;
+}
+
+
+#myPicture {
+    border-radius: 50%;
     height: auto;
+    width: 200px;
+    margin-top: 50px;
 }
 
-.First-Project {
-    height: 100px;
+.mainContent {
+    text-align: center;
+}
+
+#newshound {
+    width: 800px;
+    height: 300px;
+}
+
+#sportcast {
     width: 500px;
-    color: black;
+    height: 250px;
 }
-
-.portfolio {
-    border-radius: 8px;
-    width: 300px;
-    height: auto;
-    }
 
 footer {
     text-align: center;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
-a {
-    text-decoration: none;
+.github {
+    height: 50px;
+    width: 100px;
 }
 
-/* img:hover,
-/* img:focus {
-    width: 325px;
-    height: 325px;
-} */ */
-
-header {
-    border: 3px solid black;
-
+.whiteText {
+    color: white;
 }
 
-.container {
-    position: relative
-}
 
-.p3-text {
-    position: relative;
-    bottom: 20px;
-    color: black;
-}
 
-.p2-text {
-    position: relative;
-    bottom: 1px;
-    color: black;
-}
-
-#NewsHound {
-    height: 200px;
-    width: 500px;
-}
-
-#p1-text {
-    position: relative;
-    bottom: 20px;
-    color: black;
-}
